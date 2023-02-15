@@ -1,0 +1,22 @@
+{
+  "name": "jlab5-wenhao-lu",
+  "version": "1.0.0",
+  "description": "Node.JS Lab 5 Assignment",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./index.js",
+    "ui": "browser-sync start --config bs-config.js"
+  },
+  "author": "Wenhao Lu",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.27.11",
+    "express": "^4.18.2",
+    "jsdom": "^21.1.0",
+    "mongodb": "^5.0.0",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
